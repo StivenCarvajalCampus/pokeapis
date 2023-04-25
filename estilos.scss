@@ -23,11 +23,17 @@ body {
     background-position: right 50vw bottom 50vh, left 50vw top 50vh;
 }
 
+
 .flex {
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+}
+#banner{
+    width: 50px;
+    height: 10px;
+
 }
 
 .card {

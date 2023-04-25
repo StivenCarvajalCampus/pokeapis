@@ -1,6 +1,8 @@
 import cards from "./components/cards.js"
+import search from "./components/search.js";
 
-cards.setData()
+cards.setData();
+search.setDataSearch();
 
 
 // const pintarCard = (pokemon) => {
