@@ -1,5 +1,5 @@
 :root {
-    --dark-cyan: hsl(185, 75%, 39%);
+    --dark-cyan: hsl(54, 100%, 46%);
     --very-dark-desaturated: hsl(229, 23%, 23%);
     --dark-grayish-blue: hsl(227, 10%, 46%);
     --dark-gray: hsl(0, 0%, 59%);
@@ -16,7 +16,7 @@ box-sizing: inherit;
 body {
     font-family: 'Kumbh Sans', sans-serif;
     background-color: var(--dark-cyan);
-    background-image: url('../images/bg-pattern-top.svg'), url('../images/bg-pattern-bottom.svg');
+    background-image: url('"../images/banner1.png"'), url('../images/bg-pattern-bottom.svg');
     background-repeat: no-repeat, no-repeat;
     // background-image: url('../images/image-victor.jpg');
     // background-repeat: no-repeat;

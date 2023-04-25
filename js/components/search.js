@@ -6,7 +6,7 @@ export default {
             worker.postMessage({val:val});
             worker.onmessage = function(e) {
                 console.log(e.data)
-                document.querySelector("#searchs").insertAdjacentHTML("beforeend",e.data)
+                document.querySelector("#searchs").innerHTML = e.data
                 worker.terminate();
 
             };       
