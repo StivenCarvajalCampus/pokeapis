@@ -10,7 +10,7 @@ const pokeapi = async()=>{
             
             let plantilla = `
             <article class="card">
-            <img src="../images/card1.jpeg" alt="imagen header card" class="card-header">
+            <img src="./images/card1.jpeg" alt="imagen header card" class="card-header">
             <div class="card-body">
                 <img src=${datap.sprites.other.dream_world.front_default} class="card-body-img">
                 <h1 class="card-body-title">
